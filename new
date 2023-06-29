@@ -1,0 +1,10 @@
+kilometers = 12.25
+miles = 7.38
+
+miles_to_kilometers = (miles)*1.61 # 1 mile= 1.61 km
+kilometers_to_miles = (kilometers)/1.61 # 1.61km=1 mile
+furlong_miles=8 #1 mile= 8 furlongs
+furlongs_kilometers=4.9 #1km= 4.9furlongs
+
+print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers", "=", miles*furlong_miles, "furlongs") #miles=variable, miles is=string, miles_to_kilometers= variable, round(2)=round upto 2 decimal places, kilometers=strings
+print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles","=", miles*furlongs_kilometers, "furlongs") #miles=variable, miles is=string, Kilometers_to_miles= variable, round(2)=round upto 2 decimal places, miles=strings
